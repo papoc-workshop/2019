@@ -1,0 +1,6 @@
+AuthUserFile /var/www/.papoc_htpasswd 
+AuthName "PaPoC 19 Pre-Prints"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>

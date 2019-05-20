@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="ph3 ph4-ns w-100 w-70-ns center">
+    <article class="cf f4 tj-l center measure-wide lh-copy mid-gray">
+        {{ .Content }}
+    </article>
+
+    {{ partial "dates.html" . }}
+</div>
+{{ end }}

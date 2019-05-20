@@ -1,0 +1,28 @@
+
+{{ define "main" }}
+<div class="pa3 pa4-ns w-100 w-70-ns center">
+    <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+      {{ .Content }}
+    </article>
+    <article class="cf pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+        <h2>Program Chairs</h2>
+        <ul class="tl">
+            {{ range .Site.Data.pc_chairs }}
+            <li>{{.name}} ({{.affiliation}})</li>
+            {{end}}
+        </ul>
+        <h2>Program Committee</h2>
+        <ul class="tl">
+            {{ range .Site.Data.pc_members }}
+            <li>{{.name}} ({{.affiliation}})</li>
+            {{end}}
+        </ul>
+        <h2>Steering Committee</h2>
+        <ul class="tl">
+            {{ range .Site.Data.steering }}
+            <li>{{.name}} ({{.affiliation}})</li>
+            {{end}}
+        </ul>
+    </article>
+</div>
+{{ end }}

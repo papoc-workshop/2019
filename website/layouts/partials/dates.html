@@ -1,0 +1,24 @@
+<div class="pa3 pa4-ns w-100 w-70-ns center">
+    <article class="cf ph3 ph5-l pv3 pv4-l f4 center measure-wide lh-copy mid-gray">
+        <div class="pa4">
+          <div class="overflow-auto">
+            <table class="f6 w-100 mw8 center" cellspacing="0">
+              <thead>
+                <tr>
+                  <th class="fw6 bb b--black-10 tl pb3 pr3 bg-white">Event</th>
+                  <th class="fw6 bb b--black-10 tl pb3 pr3 bg-white">Deadline</th>
+                </tr>
+              </thead>
+              <tbody class="lh-copy">
+              {{ range .Site.Data.dates }}
+                <tr>
+                  <td class="pv3 pr3 bb b--black-10">{{.event}}</td>
+                  <td class="pv3 pr3 bb b--black-10">{{.deadline}}</td>
+                </tr>
+              {{end}}
+              </tbody>
+            </table>
+          </div>
+        </div>
+    </article>
+</div>

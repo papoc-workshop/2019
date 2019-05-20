@@ -1,0 +1,37 @@
+baseURL = "https://novasys.di.fct.unl.pt/conferences/papoc19/"
+languageCode = "en-us"
+title = "PaPoC'19"
+theme = "gohugo-theme-ananke"
+
+[menu]
+  [[menu.main]]
+    identifier = "cfp"
+    name = "CFP"
+    title = "Call For Papers"
+    url = "/call-for-papers/"
+  [[menu.main]]
+    identifier = "Committees"
+    name = "Committees"
+    title = "Program Committees"
+    url = "/committees/"
+  # uncomment when program is already done
+  [[menu.main]]
+    identifier = "program"
+    name = "Program"
+    title = "Program"
+    url = "/program/"
+
+[params]
+  favicon = ""
+  description = "Website for the PaPoC 2019 Workshop"
+  facebook = ""
+  twitter = ""
+  instagram = ""
+  youtube = ""
+  github = ""
+  gitlab = ""
+  linkedin = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = "/images/dresden.jpg"
+  recent_posts_number = 2

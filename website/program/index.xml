@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Program on PaPoC&#39;19</title>
+    <link>https://novasys.di.fct.unl.pt/conferences/papoc19/program/</link>
+    <description>Recent content in Program on PaPoC&#39;19</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Oct 2018 11:24:39 +0100</lastBuildDate>
+    
+	<atom:link href="https://novasys.di.fct.unl.pt/conferences/papoc19/program/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

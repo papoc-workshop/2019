@@ -1,0 +1,18 @@
+[
+    {
+        "event":"Submission Deadline",
+        "deadline":"<del>24th Jan 2019</del><br>4th Feb 2019"
+    },
+    {
+        "event":"Author Notification",
+        "deadline":"<del>14th Feb 2019</del><br>19th Feb 2019"
+    },
+    {
+        "event":"Camera Ready Submission",
+        "deadline":"22th Feb 2019"
+    },
+    {
+        "event":"PaPoC 2019",
+        "deadline":"25th Mar 2019"
+    }
+]

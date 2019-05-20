@@ -1,0 +1,34 @@
+[
+    {
+        "name":"Marc Shapiro",
+        "affiliation":"INRIA & LIP6, France"
+    },
+    {
+        "name":"Peter Bailis",
+        "affiliation":"Stanford University, USA"
+    },
+    {
+        "name":"Carlos Baquero",
+        "affiliation":"HASLab, INESC TEC & University of Minho, Portugal"
+    },
+    {
+        "name":"Annette Bieniusa",
+        "affiliation":"University of Kaiserslautern, Germany"
+    },
+    {
+        "name":"Alexey Gotsman",
+        "affiliation":"IMDEA Software Institute, Spain"
+    },
+    {
+        "name":"Nuno Preguiça",
+        "affiliation":"NOVA-LINCS & NOVA University of Lisbon, Portugal"
+    },
+    {
+        "name":"Marco Serafini",
+        "affiliation":"Qatar Computing Research Institute, Qatar"
+    },
+    {
+        "name":"Justin Sheehy",
+        "affiliation":"VMware Inc., USA"
+    }
+]
